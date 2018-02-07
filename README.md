@@ -1,7 +1,5 @@
-<h1 align="center">
-  <img src="assets/logo.png" alt=""/><br/>
-  WriteBar
-</h1>
+<p align="center"><img src="assets/screenshot.jpg" alt="screenshot" title=""/></p>
+<h1 align="center">WriteBar</h1>
 <p align="center">
   Experimental distraction-free text editor,<br/>
   that displays current text line right over the keyboard (on the Macbook Pro TouchBar).
@@ -9,7 +7,6 @@
 <h2 align="center"><a href="https://alexander-shvets.github.io/writebar/dist/WriteBar.dmg">
   Download (dmg)
 </a></h2>
-<p align="center"><img src="assets/screenshot.jpg" alt="screenshot" title=""/></p>
 
 ### Discuss
 
