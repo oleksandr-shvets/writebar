@@ -9,6 +9,7 @@
 <h2 align="center"><a href="https://alexander-shvets.github.io/writebar/dist/WriteBar.dmg">
   Download (dmg)
 </a></h2>
+<p align="center"><img src="assets/screenshot.jpg" alt="screenshot" title=""/></p>
 
 ### Discuss
 
