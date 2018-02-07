@@ -1,11 +1,11 @@
-![][logo]
-# WriteBar
+<p  align="center"/><img src="assets/logo.png" alt=""/>
+<h1 align="center">WriteBar</h1>
 
-Experimental distraction-free text editor, that displays current line right over the keyboard (on the Macbook Pro TouchBar).   
+Experimental distraction-free text editor, that displays current line right over the keyboard (on the Macbook Pro TouchBar).
 
-[logo]: assets/logo.png
-
-**【[Download (dmg)](https://alexander-shvets.github.io/writebar/dist/WriteBar.dmg)】**
+<h2 align="center"><a href="https://alexander-shvets.github.io/writebar/dist/WriteBar.dmg">
+  ⥙Download (dmg)⥕
+</a></h2>
 
 ### Discuss
 
