@@ -1,1 +1,4 @@
 theme: jekyll-theme-minimal
+github:
+  zip_url: dist/WriteBar.dmg
+  dmg_url: dist/WriteBar.dmg
