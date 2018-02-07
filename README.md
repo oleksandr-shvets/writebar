@@ -1,11 +1,7 @@
 ![][logo]
 # WriteBar
 
-Experimental distraction-free text editor, that displays current line on the Macbook Pro TouchBar:    
-
-![Demo video](assets/demo-video.gif)
-
-#macbook-pro #touchbar #distraction-free #text-editor #macos #osx #electron #quill #notes #editor
+Experimental distraction-free text editor, that displays current line on the Macbook Pro TouchBar.    
 
 [logo]: assets/logo.png
 
