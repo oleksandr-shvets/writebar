@@ -1,15 +1,15 @@
 {
   "name": "writebar",
   "productName": "WriteBar",
-  "version": "0.1.2",
-  "description": "Distraction-free text editor, that displays current line on the Macbook TouchBar.",
+  "version": "0.1.4",
+  "description": "Experimental distraction-free text editor, based on the Macbook pro TouchBar",
   "author": "Alexander Shvets (https://github.com/alexander-shvets)",
   "private": true,
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "build": "yarn run build-package && yarn run build-installer",
-    "build-package": "electron-packager . --out=./dist/ --icon=./assets/logo.icns --overwrite=true --electronVersion=1.7.12 && cp -R ./node_modules/* ./dist/*-darwin-*/*.app/Contents/Resources/app/node_modules/",
+    "build-package": "electron-packager . --out=./dist/ --icon=./assets/logo.icns --overwrite=true --electronVersion=1.7.12 --packageManager=yarn --appCategoryType=public.app-category.productivity --osxSign && cp -R ./node_modules/* ./dist/*-darwin-*/*.app/Contents/Resources/app/node_modules/",
     "build-installer": "cd ./dist && electron-installer-dmg ./*-darwin-*/*.app WriteBar --icon=../assets/logo.icns --overwrite"
   },
   "dependencies": {

@@ -1,13 +1,8 @@
-// This file is required by the index.html file and will
-// be executed in the renderer process for that window.
-// All of the Node.js APIs are available in this process.
-
 const {ipcRenderer: backend} = require('electron')
 
 const touchbarSizeInChars = 104
 const caretSymbol = "⎸"
 
-const dispatch = backend.send
 const {log} = console
 
 Quill.register('modules/focus', Focus)
@@ -23,6 +18,8 @@ const quill = new Quill('#editor', {
     },
     theme: 'bubble',
     placeholder: 'Write some text and look at the TouchBar...',
+    'image-tooltip': true,
+	'link-tooltip': true,
 })
 quill.focus()
 window.onfocus =()=> quill.focus()
@@ -65,19 +62,8 @@ quill.on('editor-change', (eventName, ...args) => {
             const caret = index - start
             text = text.substr(0, caret) + insert + caretSymbol + text.substr(caret)
         }
-        dispatch('update-touchbar', {text})
+        backend.send('update-touchbar', {text})
     } else {
         log('Cursor not in the editor')
     }
 })
-
-// quill.on('text-change', (delta, oldDelta, source) => {
-//     // if( source == 'api' ){
-//     //   log("An API call triggered this change.")
-//     // }else if( source == 'user' ){
-//     //   log("A user action triggered this change.")
-//     // }
-//     //log( delta )
-//     const text = quill.getText()
-//     dispatch('text-change', {text})
-// })
