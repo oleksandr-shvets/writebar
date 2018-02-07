@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>WriteBar</title>
+
+    <meta charset="UTF-8">
+
+    <link href="./node_modules/quill/dist/quill.bubble.css" rel="stylesheet">
+    <link href="./node_modules/quill-focus/src/focus.css" rel="stylesheet">
+    <style>
+      .ql-container {
+        font-size: 18px;
+      }
+      .quill-focus .ql-editor {
+        color: rgb(230,230,230);
+      }
+    </style>
+
+    <script src="./node_modules/quill/dist/quill.js"></script>
+    <script src="./node_modules/quill-focus/src/focus.js"></script>
+    <!-- <script src="./node_modules/quill-markdown-shortcuts/dist/markdownShortcuts.js"></script> -->
+
+  </head>
+  <body>
+    <div id="editor"></div>
+  </body>
+  <script> require('./editor.js') </script>
+</html>

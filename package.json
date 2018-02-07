@@ -1,0 +1,20 @@
+{
+  "name": "writebar",
+  "productName": "WriteBar",
+  "version": "0.1.0",
+  "description": "Distraction-free text editor, that displays current line on the Macbook TouchBar.",
+  "author": "Alexander Shvets (https://github.com/alexander-shvets)",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "yarn run build-package && yarn run build-installer",
+    "build-package": "electron-packager . --out=./dist/ --icon=./assets/logo.icns --overwrite=true --electronVersion=1.7.12 && cp -R ./node_modules/* ./dist/*-darwin-*/*.app/Contents/Resources/app/node_modules/",
+    "build-installer": "cd ./dist && electron-installer-dmg ./*-darwin-*/*.app WriteBar --icon=../assets/logo.icns --overwrite"
+  },
+  "dependencies": {
+    "quill": "^1.3.5",
+    "quill-focus": "amka/quill-focus",
+    "quill-markdown-shortcuts": "patleeman/quill-markdown-shortcuts"
+  }
+}
