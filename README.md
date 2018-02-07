@@ -5,12 +5,12 @@ Experimental distraction-free text editor, that displays current line right over
 
 [logo]: assets/logo.png
 
-**[:arrow_double_down: Download (dmg) :arrow_double_down:](https://alexander-shvets.github.io/writebar/dist/WriteBar.dmg)**
+**【[Download (dmg)](https://alexander-shvets.github.io/writebar/dist/WriteBar.dmg)】**
 
 ### Discuss
 
-:thought_balloon: [Feature Requests and Issues](https://github.com/alexander-shvets/writebar/issues)     
-:speech_balloon:  [Intro post on UX Club](https://www.facebook.com/groups/uxclubs/permalink/973396292808999/)
+- [Feature Requests and Issues](https://github.com/alexander-shvets/writebar/issues)     
+- [Intro post on UX Club](https://www.facebook.com/groups/uxclubs/permalink/973396292808999/)
 
 ## Development
 
