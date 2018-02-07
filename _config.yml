@@ -1,7 +1,7 @@
 title: WriteBar
 description: Distraction-free text editor.
-show_downloads: "true"
+show_downloads: true
 github:
-  zip_url: ./dist/WriteBar.dmg
-  tar_url: 
+  zip_url: ./dist/WriteBar.dmgexample
+  issues_url: https://github.com/alexander-shvets/writebar/issues
 theme: jekyll-theme-minimal
