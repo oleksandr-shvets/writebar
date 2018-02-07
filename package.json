@@ -1,7 +1,7 @@
 {
   "name": "writebar",
   "productName": "WriteBar",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Distraction-free text editor, that displays current line on the Macbook TouchBar.",
   "author": "Alexander Shvets (https://github.com/alexander-shvets)",
   "private": true,

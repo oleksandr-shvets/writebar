@@ -5,7 +5,7 @@ Experimental distraction-free text editor, that displays current line on the Mac
 
 [logo]: assets/logo.png
 
-**[Download (dmg)](dist/WriteBar.dmg)**
+**[Download (dmg)](https://alexander-shvets.github.io/writebar/dist/WriteBar.dmg)**
 
 ### Discuss
 
