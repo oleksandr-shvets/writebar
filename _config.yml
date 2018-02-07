@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
+show_downloads: "true"
 github:
-  zip_url: https://alexander-shvets.github.io/writebar/dist/WriteBar.dmg
+  zip_url: ./dist/WriteBar.dmg
+  dmg_url: ./dist/WriteBar.dmg
