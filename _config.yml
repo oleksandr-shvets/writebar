@@ -1,5 +1,7 @@
-theme: jekyll-theme-minimal
-description: Distraction-free text editor
+title: WriteBar
+description: Distraction-free text editor.
 show_downloads: "true"
 github:
   zip_url: ./dist/WriteBar.dmg
+  tar_url: 
+theme: jekyll-theme-minimal
