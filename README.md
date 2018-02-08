@@ -1,7 +1,5 @@
-<h1 align="center">
-  <img src="assets/logo.svg" alt="" title=""/><br/>
-  WriteBar
-</h1>
+<p align="center"><img src="assets/logo.svg" alt="" title=""/></p>
+<h1 align="center">WriteBar</h1>
 <p align="center">
   Experimental distraction-free text editor,<br/>
   that displays current text line right over the keyboard (on the Macbook Pro TouchBar).
