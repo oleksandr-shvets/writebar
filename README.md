@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="assets/logo.svg" alt="" title=""/>
+  <img src="assets/logo.svg" alt="" title=""/><br/>
   WriteBar
 </h1>
 <p align="center">
@@ -9,13 +9,12 @@
 <h2 align="center"><a href="https://alexander-shvets.github.io/writebar/dist/WriteBar.dmg">
   Download (dmg)
 </a></h2>
+<p align="center"><img width="600" src="assets/screenshot.jpg" alt="screenshot"/></p>
 
 ### Discuss
 
 - [Feature Requests and Issues](https://github.com/alexander-shvets/writebar/issues)     
 - [Intro post on UX Club](https://www.facebook.com/groups/uxclubs/permalink/973396292808999/)
-
-<p align="center"><img src="assets/screenshot.jpg" alt="screenshot" title=""/></p>
 
 ## Development
 
