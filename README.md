@@ -2,7 +2,7 @@
 <h1 align="center">WriteBar</h1>
 <p align="center">
   Experimental distraction-free text editor,<br/>
-  that displays current text line right over the keyboard (on the Macbook Pro TouchBar).
+  that displays focus text line right over the keyboard (on the Macbook Pro TouchBar).
 </p>
 <h2 align="center"><a href="https://alexander-shvets.github.io/writebar/dist/WriteBar.dmg">
   Download (dmg)
