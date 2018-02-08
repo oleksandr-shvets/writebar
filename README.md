@@ -1,5 +1,7 @@
-<p align="center"><img src="assets/screenshot.jpg" alt="screenshot" title=""/></p>
-<h1 align="center">WriteBar</h1>
+<h1 align="center">
+  <img src="assets/logo.svg" alt="" title=""/>
+  WriteBar
+</h1>
 <p align="center">
   Experimental distraction-free text editor,<br/>
   that displays current text line right over the keyboard (on the Macbook Pro TouchBar).
@@ -12,6 +14,8 @@
 
 - [Feature Requests and Issues](https://github.com/alexander-shvets/writebar/issues)     
 - [Intro post on UX Club](https://www.facebook.com/groups/uxclubs/permalink/973396292808999/)
+
+<p align="center"><img src="assets/screenshot.jpg" alt="screenshot" title=""/></p>
 
 ## Development
 
