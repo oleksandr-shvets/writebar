@@ -14,9 +14,6 @@
 - [Feature Requests and Issues](//github.com/alexander-shvets/writebar/issues)     
 - [Intro post on UX Club](//facebook.com/groups/uxclubs/permalink/973396292808999/)
 
-[`dist`]: //github.com/alexander-shvets/writebar/tree/master/dist
-[`package.json`]: //github.com/alexander-shvets/writebar/blob/master/package.json
-
 ## Development
 
 Download source code:    
@@ -25,12 +22,12 @@ git clone git@github.com:alexander-shvets/writebar.git
 cd writebar
 ```
 
-Install macOS package manager (Homebrew):
+Install macOS package manager ([Homebrew][]):
 ```shell
 brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Install Node package manager (yarn):
+Install Node package manager ([yarn][]):
 ```shell
 yarn || brew install yarn
 ```
@@ -42,9 +39,9 @@ yarn
 
 Install (global or local) dev-dependencies*:    
 ```shell
-electron || yarn global add electron
-electron-packager || yarn global add electron-packager
-electron-installer-dmg || yarn global add electron-installer-dmg
+yarn global add electron
+yarn global add electron-packager
+yarn global add electron-installer-dmg
 ```
 _* doesn't listed in [`package.json`][] becouse I doesn't use js builder yet (which will exclude unused dependencies from application installation package)_
 
@@ -58,4 +55,9 @@ Build app and Installer:
 yarn build
 ```
 Release files generated in [`dist`][] directory.
+
+[`package.json`]: //github.com/alexander-shvets/writebar/blob/master/package.json
+[`dist`]: //github.com/alexander-shvets/writebar/tree/master/dist
+[Homebrew]: //brew.sh
+[yarn]: //yarnpkg.com
 
