@@ -29,7 +29,9 @@ yarn global add electron
 yarn global add electron-packager
 yarn global add electron-installer-dmg
 ```
-_* doesn't listed in [`package.json`]() becouse I doesn't use js builder yet (which will exclude unused dependencies from application installation package)_
+_* doesn't listed in [`package.json`][] becouse I doesn't use js builder yet (which will exclude unused dependencies from application installation package)_
+
+[`package.json`]: //github.com/alexander-shvets/writebar/blob/master/package.json
 
 Run in dev mode:    
 ```shell
