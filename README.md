@@ -14,24 +14,30 @@
 - [Feature Requests and Issues](//github.com/alexander-shvets/writebar/issues)     
 - [Intro post on UX Club](//facebook.com/groups/uxclubs/permalink/973396292808999/)
 
+[`dist`]: //github.com/alexander-shvets/writebar/tree/master/dist
+[`package.json`]: //github.com/alexander-shvets/writebar/blob/master/package.json
+
 ## Development
 
-Download:    
+Download source code:    
 ```shell
 git clone git@github.com:alexander-shvets/writebar.git
 cd writebar
+```
+
+Install Node Package Manager and application dependencies:
+```shell
+brew install yarn
 yarn
 ```
 
-Install (global) dev Dependencies*:    
+Install (global or local) dev-dependencies*:    
 ```shell
 yarn global add electron
 yarn global add electron-packager
 yarn global add electron-installer-dmg
 ```
 _* doesn't listed in [`package.json`][] becouse I doesn't use js builder yet (which will exclude unused dependencies from application installation package)_
-
-[`package.json`]: //github.com/alexander-shvets/writebar/blob/master/package.json
 
 Run in dev mode:    
 ```shell
@@ -42,4 +48,5 @@ Build App and Installer:
 ```shell
 yarn build
 ```
-Release files generated in [`dist`](//github.com/alexander-shvets/writebar/tree/master/dist) directory.
+Release files generated in [`dist`][] directory.
+
