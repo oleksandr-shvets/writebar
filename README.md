@@ -48,12 +48,12 @@ electron-installer-dmg || yarn global add electron-installer-dmg
 ```
 _* doesn't listed in [`package.json`][] becouse I doesn't use js builder yet (which will exclude unused dependencies from application installation package)_
 
-Run in dev mode:    
+Run app in dev mode:    
 ```shell
 yarn start
 ```
 
-Build App and Installer:    
+Build app and Installer:    
 ```shell
 yarn build
 ```
