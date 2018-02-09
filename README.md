@@ -1,18 +1,18 @@
-<p align="center"><img src="assets/logo.svg" alt="" title=""/></p>
+<p align="center"><a href="//writebar.js.org"><img src="assets/logo.svg"/></a></p>
 <h1 align="center">WriteBar</h1>
 <p align="center">
   Experimental distraction-free text editor,<br/>
   that displays focus text line right over the keyboard (on the Macbook Pro TouchBar).
 </p>
-<h2 align="center"><a href="https://alexander-shvets.github.io/writebar/dist/WriteBar.dmg">
+<h2 align="center"><a href="dist/WriteBar.dmg">
   Download (dmg)
 </a></h2>
 <p align="center"><img width="600" src="assets/screenshot.jpg" alt="screenshot"/></p>
 
 ### Discuss
 
-- [Feature Requests and Issues](https://github.com/alexander-shvets/writebar/issues)     
-- [Intro post on UX Club](https://www.facebook.com/groups/uxclubs/permalink/973396292808999/)
+- [Feature Requests and Issues](//github.com/alexander-shvets/writebar/issues)     
+- [Intro post on UX Club](//facebook.com/groups/uxclubs/permalink/973396292808999/)
 
 ## Development
 
@@ -37,5 +37,6 @@ yarn start
 
 Build App and Installer:    
 ```shell
-yarn && yarn build
+yarn build
 ```
+Release files generated in [`dist`](//github.com/alexander-shvets/writebar/tree/master/dist) directory.
