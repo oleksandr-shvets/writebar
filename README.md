@@ -4,7 +4,7 @@
   Experimental distraction-free text editor,<br/>
   that displays focus text line right over the keyboard (on the Macbook Pro TouchBar).
 </p>
-<h2 align="center"><a href="dist/WriteBar.dmg">
+<h2 align="center"><a href="//github.com/alexander-shvets/writebar/raw/master/dist/WriteBar.dmg">
   Download (dmg)
 </a></h2>
 <p align="center"><img width="600" src="assets/screenshot.jpg" alt="screenshot"/></p>
