@@ -25,17 +25,26 @@ git clone git@github.com:alexander-shvets/writebar.git
 cd writebar
 ```
 
-Install Node Package Manager and application dependencies:
+Install macOS package manager (Homebrew):
 ```shell
-brew install yarn
+brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Install Node package manager (yarn):
+```shell
+yarn || brew install yarn
+```
+
+Install application dependencies:
+```shell
 yarn
 ```
 
 Install (global or local) dev-dependencies*:    
 ```shell
-yarn global add electron
-yarn global add electron-packager
-yarn global add electron-installer-dmg
+electron || yarn global add electron
+electron-packager || yarn global add electron-packager
+electron-installer-dmg || yarn global add electron-installer-dmg
 ```
 _* doesn't listed in [`package.json`][] becouse I doesn't use js builder yet (which will exclude unused dependencies from application installation package)_
 
