@@ -11,8 +11,9 @@
 
 ### Discuss
 
-- [Feature Requests and Issues](//github.com/alexander-shvets/writebar/issues)     
-- [Intro post on UX Club](//facebook.com/groups/uxclubs/permalink/973396292808999/)
+- [Intro Video post @ Facebook UX Club](//facebook.com/groups/uxclubs/permalink/973396292808999/)
+- [Development direction voting @ Twitter](https://twitter.com/YodaKiev/status/961870873530544128)
+- [Feature Requests and Issues @ GitHub](//github.com/alexander-shvets/writebar/issues)     
 
 ## Development
 
