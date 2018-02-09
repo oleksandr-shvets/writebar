@@ -22,9 +22,9 @@ git clone git@github.com:alexander-shvets/writebar.git
 cd writebar
 ```
 
-Install macOS package manager ([Homebrew][]):
+Install (or update) macOS package manager ([Homebrew][]):
 ```shell
-brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 Install Node package manager ([yarn][]):
