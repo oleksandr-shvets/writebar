@@ -25,9 +25,9 @@ yarn
 
 Install dev Dependencies:    
 ```shell
-npm install -g electron
-npm install -g electron-packager
-npm install -g electron-installer-dmg
+yarn global add electron
+yarn global add electron-packager
+yarn global add electron-installer-dmg
 ```
 
 Run in dev mode:    
