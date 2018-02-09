@@ -1,10 +1,10 @@
-<p align="center"><a href="//writebar.js.org"><img src="assets/logo.svg"/></a></p>
+<p align="center"><a href="//writebar.js.org" title="writebar.js.org"><img src="assets/logo.svg"/></a></p>
 <h1 align="center">WriteBar</h1>
 <p align="center">
   Experimental distraction-free text editor,<br/>
   that displays focus text line right over the keyboard (on the Macbook Pro TouchBar).
 </p>
-<h2 align="center"><a href="//github.com/alexander-shvets/writebar/raw/master/dist/WriteBar.dmg">
+<h2 align="center"><a href="dist/WriteBar.dmg">
   Download (dmg)
 </a></h2>
 <p align="center"><img width="600" src="assets/screenshot.jpg" alt="screenshot"/></p>
