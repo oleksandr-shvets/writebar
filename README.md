@@ -7,7 +7,7 @@
 <h2 align="center">
   <a href="//github.com/alexander-shvets/writebar/releases">Downloads</a>
   / 
-  <a href="dist/WriteBar.dmg">v0.1.4-alpha.dmg</a>
+  <a href="dist/WriteBar.dmg">v0.2.0-beta.dmg</a>
 </h2>
 <p align="center"><img width="600" src="assets/screenshot.jpg" alt="screenshot"/></p>
 

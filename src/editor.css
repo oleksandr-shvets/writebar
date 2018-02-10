@@ -1,0 +1,15 @@
+.ql-container {
+    font-size: 18px;
+    margin: 2em;
+    margin-left: 5em;
+    line-height: 200%;
+}
+
+.quill-focus .ql-editor {
+    color: rgb(230,230,230);
+}
+
+.ql-editor.ql-blank::before {
+    color: rgba(0,0,0,0.3);
+}
+

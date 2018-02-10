@@ -1,11 +1,11 @@
 {
   "name": "writebar",
   "productName": "WriteBar",
-  "version": "0.1.4",
-  "description": "Experimental distraction-free text editor, based on the Macbook pro TouchBar",
+  "version": "0.2.0",
+  "description": "Distraction-free text editor, based on the Macbook pro TouchBar",
   "author": "Alexander Shvets (https://github.com/alexander-shvets)",
   "private": true,
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron .",
     "build": "yarn run build-package && yarn run build-installer",
@@ -16,5 +16,6 @@
     "quill": "^1.3.5",
     "quill-focus": "amka/quill-focus",
     "quill-markdown-shortcuts": "patleeman/quill-markdown-shortcuts"
-  }
+  },
+  "devDependencies": {}
 }
