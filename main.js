@@ -13,7 +13,7 @@ let mainWindow
 function createWindow () {
   mainWindow = new BrowserWindow({
     title: 'WriteBar',
-    icon: path.join(__dirname, '..', 'assets', 'logo.ico'),
+    icon: path.join(__dirname, 'assets', 'logo.icns'),
 
     width:    580,    height: 500,
     minWidth: 260, minHeight: 200,
@@ -28,11 +28,10 @@ function createWindow () {
       defaultFontSize: 18,
     },
   })
-  //let worker = new Worker('script.js')
 
   // and load the index.html of the app.
   mainWindow.loadURL(url.format({
-    pathname: path.join(__dirname, 'editor.html'),
+    pathname: path.join(__dirname, 'src', 'editor.html'),
     protocol: 'file:',
     slashes: true
   }))

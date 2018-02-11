@@ -7,14 +7,13 @@
 <h2 align="center">
   <a href="//github.com/alexander-shvets/writebar/releases">Downloads</a>
   / 
-  <a href="dist/WriteBar.dmg">v0.2.0-beta.dmg</a>
+  <a href="dist/WriteBar.dmg">v0.2.1-beta.dmg</a>
 </h2>
 <p align="center"><img width="600" src="assets/screenshot.jpg" alt="screenshot"/></p>
 
 ### Discuss
 
 - [Intro Video post @ Facebook UX Club](//facebook.com/groups/uxclubs/permalink/973396292808999/)
-- [Development direction voting @ Twitter](https://twitter.com/YodaKiev/status/961870873530544128)
 - [Feature Requests and Issues @ GitHub](//github.com/alexander-shvets/writebar/issues)     
 
 ## Development
@@ -55,7 +54,7 @@ yarn start
 
 Build app and Installer:    
 ```shell
-yarn build
+yarn packdist
 ```
 Release files generated in [`dist`][] directory.
 

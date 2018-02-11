@@ -1,13 +1,24 @@
-const {shell:{ openExternal }} = require('electron')
+const {shell:{ openExternal },remote:{ app }} = require('electron')
 
-const {fileMenu} = require('./file-menu')
-const {spellcheckMenu} = require('./spellcheck-menu')
+const {fileMenu} = require('./file')
+const {spellcheckMenu} = require('./spellcheck')
 
 module.exports.menu = [
 
-    {label: 'WriteBar',//app.getName(),
+    {label: app.getName(),
       submenu: [
         {role: 'about'},
+
+        {type: 'separator'},
+        {role: 'services'},
+        {type: 'separator'},
+
+        {role: 'hideothers'},
+        {role: 'hide'},
+        {role: 'unhide'},
+
+        {type: 'separator'},
+
         {role: 'quit'},
       ]
     },

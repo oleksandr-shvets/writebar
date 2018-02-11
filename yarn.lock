@@ -2,13 +2,34 @@
 # yarn lockfile v1
 
 
+"@slite/quill-delta-markdown@alexjohnporter/quill-delta-markdown":
+  version "0.0.8"
+  resolved "https://codeload.github.com/alexjohnporter/quill-delta-markdown/tar.gz/796acf9e6b9397cc3c4ab020841101ae06ae3c14"
+  dependencies:
+    commonmark "^0.26.0"
+    lodash "^4.16.4"
+    quill-delta "^3.4.0"
+
 clone@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/clone/-/clone-2.1.1.tgz#d217d1e961118e3ac9a4b8bba3285553bf647cdb"
 
+commonmark@^0.26.0:
+  version "0.26.0"
+  resolved "https://registry.yarnpkg.com/commonmark/-/commonmark-0.26.0.tgz#216e8f2f2bc7306c002a73aaa4edb64609e26457"
+  dependencies:
+    entities "~ 1.1.1"
+    mdurl "~ 1.0.1"
+    minimist "~ 1.2.0"
+    string.prototype.repeat "^0.2.0"
+
 deep-equal@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
+
+"entities@~ 1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
 
 eventemitter3@^2.0.3:
   version "2.0.3"
@@ -22,11 +43,23 @@ fast-diff@1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.1.2.tgz#4b62c42b8e03de3f848460b639079920695d0154"
 
+lodash@^4.16.4:
+  version "4.17.5"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
+
+"mdurl@~ 1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
+
+"minimist@~ 1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
+
 parchment@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/parchment/-/parchment-1.1.3.tgz#c0fd5c2765eb73b30bfe171d6567cb1ae748e9af"
 
-quill-delta@^3.6.2:
+quill-delta@^3.4.0, quill-delta@^3.6.2:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/quill-delta/-/quill-delta-3.6.2.tgz#76eed0163b8b09a076fba6ade29307c42b40b8d8"
   dependencies:
@@ -52,3 +85,7 @@ quill@^1.3.5:
     extend "^3.0.1"
     parchment "^1.1.3"
     quill-delta "^3.6.2"
+
+string.prototype.repeat@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/string.prototype.repeat/-/string.prototype.repeat-0.2.0.tgz#aba36de08dcee6a5a337d49b2ea1da1b28fc0ecf"

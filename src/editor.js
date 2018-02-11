@@ -24,7 +24,9 @@ const quill = new Quill('#editor', {
 })
 quill.focus()
 //window.onfocus =()=> quill.focus()
+
 window.quill = quill
+window.documentNotSaved = true
 
 Menu.setApplicationMenu(Menu.buildFromTemplate( menu ))
 
@@ -37,6 +39,7 @@ quill.on('editor-change', (eventName, ...args) => {
 
     if (eventName === 'text-change') {
 
+        window.documentNotSaved = true
         getCurrentWindow().setDocumentEdited( true )
 
         // args[0] will be delta
