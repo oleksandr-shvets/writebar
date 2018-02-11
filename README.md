@@ -9,7 +9,7 @@
   | 
   <a href="dist/WriteBar.dmg">v0.2.1-beta.dmg</a>
 </h2>
-<p align="center"><img width="600" src="assets/screenshot.jpg" alt="screenshot"/></p>
+<p align="center"><a href="//facebook.com/groups/uxclubs/permalink/973396292808999/"><img width="600" src="assets/screenshot.jpg" alt="screenshot"/></a></p>
 
 ### Discuss
 
