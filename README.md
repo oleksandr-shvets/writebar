@@ -52,11 +52,11 @@ Run app in dev mode:
 yarn start
 ```
 
-Build app and Installer:    
+Build App and Installation Package (dmg):    
 ```shell
 yarn packdist
 ```
-Release files generated in [`dist`][] directory.
+Release files should be generated in [`dist`][] directory.
 
 [`package.json`]: //github.com/alexander-shvets/writebar/blob/master/package.json
 [`dist`]: //github.com/alexander-shvets/writebar/tree/master/dist
