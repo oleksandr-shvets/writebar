@@ -1,6 +1,8 @@
 const {ipcRenderer, remote: {Menu, getCurrentWindow}} = require('electron')
 const {menu} = require('./menu')
 
+Menu.setApplicationMenu(Menu.buildFromTemplate( menu ))
+
 const touchbarSizeInChars = 104
 const caretSymbol = "⎸"
 
@@ -27,8 +29,6 @@ quill.focus()
 
 window.quill = quill
 window.documentNotSaved = true
-
-Menu.setApplicationMenu(Menu.buildFromTemplate( menu ))
 
 
 quill.on('editor-change', (eventName, ...args) => {
