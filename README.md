@@ -5,7 +5,7 @@
   that displays focus text line right over the keyboard (on the Macbook Pro TouchBar).
 </p>
 <h2 align="center">
-  <a href="//github.com/alexander-shvets/writebar/releases">Change Log</a>
+  <a title="Releases at GitHub" href="//github.com/alexander-shvets/writebar/releases">Change Log</a>
   | 
   <a href="//github.com/alexander-shvets/writebar/releases/download/0.2.1/WriteBar.dmg">0.2.1-beta.dmg</a>
 </h2>
