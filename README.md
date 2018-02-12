@@ -11,6 +11,13 @@
 </h2>
 <p align="center"><a href="//facebook.com/groups/uxclubs/permalink/973396292808999/"><img width="600" src="assets/screenshot.jpg" alt="screenshot"/></a></p>
 
+### Features
+
+- [x] Line edit on TouchBar
+- [x] Context formatting menu
+- [ ] Markdown Import/Export
+- [ ] Visual Markdown editing
+
 ### Discuss
 
 - [Intro Video post @ Facebook UX Club](//facebook.com/groups/uxclubs/permalink/973396292808999/)
