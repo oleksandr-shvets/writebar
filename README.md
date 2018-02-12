@@ -7,7 +7,7 @@
 <h2 align="center">
   <a title="Releases at GitHub" href="//github.com/alexander-shvets/writebar/releases">Change Log</a>
   | 
-  <a href="//github.com/alexander-shvets/writebar/releases/download/0.2.1/WriteBar.dmg">0.2.1-beta.dmg</a>
+  <a title="Download from GitHub" href="//github.com/alexander-shvets/writebar/releases/download/0.2.1/WriteBar.dmg">0.2.1-beta.dmg</a>
 </h2>
 <p align="center"><a href="//facebook.com/groups/uxclubs/permalink/973396292808999/"><img width="600" src="assets/screenshot.jpg" alt="screenshot"/></a></p>
 
