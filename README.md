@@ -23,7 +23,7 @@
 > brew update || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 > ```
 
-> Install [Yarn][] (modern Node package manager):
+> Install [Yarn][] (modern [NodeJS][] package manager):
 > ```shell
 > yarn || brew install yarn
 > ```
@@ -60,5 +60,6 @@ Release files should be generated in `dist` directory.
 
 [`package.json`]: //github.com/alexander-shvets/writebar/blob/master/package.json
 [Homebrew]: //brew.sh
+[NodeJS]: //nodejs.org
 [Yarn]: //yarnpkg.com
 
