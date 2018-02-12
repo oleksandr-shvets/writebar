@@ -18,20 +18,20 @@
 
 ## Development
 
+> Install (or update) macOS package manager ([Homebrew][]):
+> ```shell
+> brew update || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+> ```
+
+> Install [Yarn][] (modern Node package manager):
+> ```shell
+> yarn || brew install yarn
+> ```
+
 Download source code:    
 ```shell
 git clone git@github.com:alexander-shvets/writebar.git
 cd writebar
-```
-
-Install (or update) macOS package manager ([Homebrew][]):
-```shell
-brew update || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-Install Node package manager ([yarn][]):
-```shell
-yarn || brew install yarn
 ```
 
 Install application dependencies:
@@ -61,5 +61,5 @@ Release files should be generated in [`dist`][] directory.
 [`package.json`]: //github.com/alexander-shvets/writebar/blob/master/package.json
 [`dist`]: //github.com/alexander-shvets/writebar/tree/master/dist
 [Homebrew]: //brew.sh
-[yarn]: //yarnpkg.com
+[Yarn]: //yarnpkg.com
 
