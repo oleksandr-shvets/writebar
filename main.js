@@ -1,19 +1,17 @@
 const {
   app, BrowserWindow, TouchBar, ipcMain,
 } = require('electron')
-
-const path = require('path')
 const url = require('url')
-
+const {join: osDirJoin} = require('path')
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
-let mainWindow
+var mainWindow
 
 function createWindow () {
   mainWindow = new BrowserWindow({
     title: 'WriteBar',
-    icon: path.join(__dirname, 'assets', 'logo.icns'),
+    icon: fullname('assets/logo.icns'),
 
     width:    580,    height: 500,
     minWidth: 260, minHeight: 200,
@@ -31,7 +29,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   mainWindow.loadURL(url.format({
-    pathname: path.join(__dirname, 'src', 'editor.html'),
+    pathname: fullname('src/editor.html'),
     protocol: 'file:',
     slashes: true
   }))
@@ -85,3 +83,10 @@ app.on('activate', function () {
     mainWindow.webContents.focus()
   }
 })
+
+
+function fullname( filename = String() && [String] ){
+  return filename 
+  &&[ __dirname ].concat(typeof(filename) === 'string' ? filename.split('/') : filename).join(osDirJoin) 
+  ||  __dirname
+}
