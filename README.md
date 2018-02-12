@@ -5,9 +5,9 @@
   that displays focus text line right over the keyboard (on the Macbook Pro TouchBar).
 </p>
 <h2 align="center">
-  <a href="//github.com/alexander-shvets/writebar/releases">ChangeLog</a>
+  <a href="//github.com/alexander-shvets/writebar/releases">Change Log</a>
   | 
-  <a href="dist/WriteBar.dmg">v0.2.1-beta.dmg</a>
+  <a href="//github.com/alexander-shvets/writebar/releases/download/0.2.1/WriteBar.dmg">0.2.1-beta.dmg</a>
 </h2>
 <p align="center"><a href="//facebook.com/groups/uxclubs/permalink/973396292808999/"><img width="600" src="assets/screenshot.jpg" alt="screenshot"/></a></p>
 

@@ -7,6 +7,7 @@
   "private": true,
   "main": "main.js",
   "scripts": {
+    "install": "mkdir ./dist",
     "start": "electron .",
     "packdist": "yarn run pack && yarn run dist",
     "pack": "electron-packager . --out=./dist/ --icon=./assets/logo.icns --overwrite=true --electronVersion=1.7.12 --packageManager=yarn --appCategoryType=public.app-category.productivity && cp -R ./node_modules/* ./dist/*-darwin-*/*.app/Contents/Resources/app/node_modules/",
