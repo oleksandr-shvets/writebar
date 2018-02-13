@@ -32,7 +32,7 @@
 
 > Install [Yarn][] (modern [NodeJS][] package manager):
 > ```shell
-> yarn || brew install yarn
+> which yarn || brew install yarn
 > ```
 
 Download source code:    
@@ -43,25 +43,25 @@ cd writebar
 
 Install application dependencies:
 ```shell
-yarn
+yarn || npm install
 ```
 
 Install (global or local) dev-dependencies*:    
 ```shell
-yarn global add electron
-yarn global add electron-packager
-yarn global add electron-installer-dmg
+yarn global add electron               || npm install electron -g
+yarn global add electron-packager      || npm install electron-packager -g
+yarn global add electron-installer-dmg || npm install electron-installer-dmg -g
 ```
 _* doesn't listed in [`package.json`][] becouse I doesn't use js builder yet (which will exclude unused dependencies from application installation package)_
 
 Run app in dev mode:    
 ```shell
-yarn start
+yarn start || npm start
 ```
 
 Build App and Installation Package (dmg):    
 ```shell
-yarn packdist
+yarn packdist || npm run pack && npm run dist
 ```
 Release files should be generated in `dist` directory.
 
