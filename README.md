@@ -7,7 +7,7 @@
 <h2 align="center">
   <a title="Change Log at GitHub" href="//github.com/alexander-shvets/writebar/releases">Releases</a>
   : 
-  <a title="Download from GitHub" href="//github.com/alexander-shvets/writebar/releases/download/0.2.1/WriteBar.dmg">0.2.1-beta.dmg</a>
+  <a title="Download from GitHub" href="//github.com/alexander-shvets/writebar/releases/download/0.2.1/WriteBar.dmg">0.2.1-alpha.dmg</a>
 </h2>
 <p align="center"><a href="//facebook.com/groups/uxclubs/permalink/973396292808999/"><img width="600" src="assets/screenshot.jpg" alt="screenshot"/></a></p>
 
@@ -15,6 +15,7 @@
 
 - [x] Line edit on TouchBar
 - [x] Context formatting menu
+- [ ] Smart Spellchecker
 - [ ] Markdown Import/Export
 - [ ] Visual Markdown editing
 
