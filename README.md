@@ -66,6 +66,10 @@ yarn packdist || npm run pack && npm run dist
 ```
 Release files should be generated in `dist` directory.
 
+### License
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Falexander-shvets%2Fwritebar.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Falexander-shvets%2Fwritebar?ref=badge_large)
+
 [`package.json`]: //github.com/alexander-shvets/writebar/blob/master/package.json
 [Homebrew]: //brew.sh
 [NodeJS]: //nodejs.org
