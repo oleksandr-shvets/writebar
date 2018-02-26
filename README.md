@@ -25,8 +25,6 @@
 - [Feature Requests and Issues @ GitHub](//github.com/alexander-shvets/writebar/issues)     
 
 ## Development
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Falexander-shvets%2Fwritebar.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Falexander-shvets%2Fwritebar?ref=badge_shield)
-
 
 > Install (or update) macOS package manager ([Homebrew][]):
 > ```shell
@@ -76,8 +74,3 @@ Release files should be generated in `dist` directory.
 [Homebrew]: //brew.sh
 [NodeJS]: //nodejs.org
 [Yarn]: //yarnpkg.com
-
-
-
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Falexander-shvets%2Fwritebar.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Falexander-shvets%2Fwritebar?ref=badge_large)
