@@ -4,7 +4,7 @@
   "version": "0.2.1",
   "description": "Distraction-free text editor, based on the Macbook pro TouchBar",
   "author": "Alexander Shvets (https://github.com/alexander-shvets)",
-  "private": true,
+  "license": "MIT",
   "main": "main.js",
   "scripts": {
     "install": "mkdir ./dist",
